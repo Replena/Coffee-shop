@@ -1,0 +1,47 @@
+:root {
+  --black: #111315;
+  --white: #fef7ee;
+  --gray: #6f757c;
+  --grey-light: #bee3cc;
+  --red: #ed735d;
+  --yellow: #f6c768;
+  --brown: #1b1d1f;
+}
+
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+  color: var(--white);
+}
+.card {
+  background-color: transparent !important  ;
+}
+.mp {
+  margin: 0 !important;
+  padding: 0;
+}
+.product-card {
+  border-radius: 10px;
+  width: 18rem;
+}
+.coffee-page {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.nameAndPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ratingAndVotes {
+  display: flex;
+  align-items: center;
+}
+
+.coffee-cards {
+  display: flex;
+}

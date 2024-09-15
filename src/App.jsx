@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="container">
       <Header />
       <Routes>
         <Route path="/" element={<CoffeePage products={products} />} />
@@ -37,7 +37,7 @@ function App() {
           element={<CoffeePage products={filteredProducts} />}
         />
       </Routes>
-    </>
+    </div>
   );
 }
 

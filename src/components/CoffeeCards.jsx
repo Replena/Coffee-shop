@@ -1,4 +1,5 @@
 import CoffeeCard from "./CoffeeCard.jsx";
+import "../../Coffee-shop/src/index.css";
 function CoffeeCards({ products }) {
   return (
     <div className="coffee-page">
