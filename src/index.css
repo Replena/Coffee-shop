@@ -7,3 +7,14 @@
   --yellow: #f6c768;
   --brown: #1b1d1f;
 }
+
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+body {
+  background-image: url(./assets/bg-cafe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,9 +1,9 @@
-import Cards from "../components/Cards.jsx";
+import CoffeeCards from "../components/CoffeeCards.jsx";
 
-function CoffeePage() {
+function CoffeePage({ products }) {
   return (
     <div>
-      <Cards />
+      <CoffeeCards products={products} />
     </div>
   );
 }
