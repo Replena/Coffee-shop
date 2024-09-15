@@ -1,5 +1,5 @@
 import "./App.css";
-import CoffeePage from "./assets/Pages/CoffeePage.jsx";
+import CoffeePage from "./Pages/CoffeePage.jsx";
 
 function App() {
   return (
